@@ -1,5 +1,5 @@
 * {
-    margin: 10;
+    margin: 30;
     padding: 20;
     user-select: none;
     box-sizing: border-box;
@@ -28,18 +28,18 @@ body {
     color:#F9FAFB ;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-left: 100px;
+    margin-left: 260px;
 }
 
 .random {
     color: #34D399;
-    margin-left: 100px;
+    margin-left: 260px;
 }
 
 .never {
     color: #9CA3AF;
     margin-top: -40px;
-    margin-left: 100px;
+    margin-left: 260px;
 }
 
 input {
@@ -52,7 +52,7 @@ input {
     border: 2px solid #46f70c;;
     outline: none;
     font-size: 22px;
-    margin-left: 55px;
+    margin-left: 240px;
     }
    
 input::placeholder{
