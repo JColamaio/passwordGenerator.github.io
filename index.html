@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Password Generater</title>
+        
+    </head>
+    <body>
+    <div class="box">
+        <h1 class="generar">Generate a</h1>
+        <h1 class="random">random password</h1>
+        <h4 class="never">Never use an insecure password again.</h4>
+        
+        <input type="text"  placeholder="Create password" id="password" readonly/> 
+        
+            <div class="actions">
+            <button id="generate-button" class="btn1"onclick="genPassword()">Generate</button>
+            <button id="copy-button" class="btn2" onclick="copyPassword()">Copy</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    </body>
+</html>
